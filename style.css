@@ -7,6 +7,8 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -16,6 +18,12 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+}
+
+.btn-contact{
+    tabindex: 0;
+    background: transparent;
+    border: none;
 }
 
 #page-loading-blocs-notifaction {
@@ -286,6 +294,12 @@ a:hover {
 #bloc-1-hero h1 {
     font-size: 32px;
 }
+
+div.keywords{
+    visibility: hidden;
+
+}
+
 
 .navbar {
     margin-bottom: 0;
@@ -658,6 +672,29 @@ a {
     max-width: 1000px;
 }
 
+.title-p{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+    font-size: 24px;
+    line-height: 1.42857143;
+}
+
+.p-citation {
+  font-family: "Helvetica Neue", Helvetica, Arial,sans-serif;
+  color: #333;
+    font-size: 21px;
+    line-height: 1.2;
+}
+
+.title-2{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+    font-size: 24px;
+    line-height: 1.3;
+}
+
+
+
 .hero-bloc-text {
     font-size: 38px;
 }
@@ -676,9 +713,7 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
+
 
 .tight-width-whitespace {
     max-width: 600px;

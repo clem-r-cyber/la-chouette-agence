@@ -321,7 +321,7 @@ div.keywords{
     display: inline;
 }
 
-.navbar-brand img[src$=svg] {
+.navbar-brand img [src$=svg] {
     min-width: 100px;
 }
 
@@ -839,10 +839,10 @@ h4 {
     color: #c27956!important;
 }
 
-.icon-dark-slate-blue {
+/* .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
-}
+} */
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
